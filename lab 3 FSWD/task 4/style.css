@@ -1,0 +1,76 @@
+body {
+
+    background-color: #ddd;
+
+    font-family:
+        "Times New Roman",
+        serif;
+
+    color: #111;
+
+}
+
+
+.paper {
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    min-height: 100vh;
+
+}
+
+
+.paper-title {
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+}
+
+
+.paper h2 {
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+}
+
+
+.paper p,
+.paper li {
+
+    font-size: 13px;
+
+    line-height: 1.6;
+
+    text-align: justify;
+
+}
+
+
+.paper section {
+
+    margin-bottom: 20px;
+
+}
+
+
+@media (max-width: 768px) {
+
+    .paper {
+
+        padding: 25px !important;
+
+    }
+
+    .paper-title {
+
+        font-size: 22px;
+
+    }
+
+}

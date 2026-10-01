@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+
+    color: #222;
+
+    scroll-behavior: smooth;
+}
+
+
+/* HERO */
+
+.hero {
+    background-color: #e8eefc;
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+
+/* PROFILE */
+
+.profile-circle {
+
+    width: 250px;
+
+    height: 250px;
+
+    border-radius: 50%;
+
+    background-color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin: auto;
+
+    font-size: 60px;
+
+    font-weight: bold;
+
+    box-shadow:
+        0 5px 20px
+        rgba(0, 0, 0, 0.15);
+
+}
+
+
+/* SKILLS */
+
+.skill-card {
+
+    border: none;
+
+    transition: 0.3s;
+
+}
+
+.skill-card:hover {
+
+    transform: translateY(-5px);
+
+}
+
+
+.skill-icon {
+
+    font-size: 45px;
+
+}
+
+
+
+
+#projects .card {
+
+    border: none;
+
+    transition: 0.3s;
+
+}
+
+
+#projects .card:hover {
+
+    transform: translateY(-5px);
+
+}
